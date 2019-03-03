@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Homework 4</title>
+  </head>
+  <div style="background-color:black; color: lightpink; font-family:impact; text-align:center;">
+  <body>
+    <script src="RNConverter.js"></script>
+    <h1>Homework 4</h1>
+    <h2>Kelsey Moore</h2>
+    <h3>Roman Numeral Converter</h3>
+  </div>
+    <div style="background-color:lightpink; color:black; font-family:cursive; text-align:center;">
+    <p>Enter a Decimal Number to convert to a Roman Numeral:
+    <input type="number" name="decimal" id="decimal" min="1" max="2000">
+    <button onclick="document.getElementById('userInputD').innerHTML = toRoman(document.getElementById('decimal').value)">Convert to Roman!</button>
+    </p>
+    <p> Roman Numeral = </p>
+    <p id="userInputD"></p>
+    <p>Enter a Roman Numeral to convert to a Decimal Number:
+    <input type="text" name="roman" id="roman">
+    <button onclick="document.getElementById('userInputR').innerHTML = fromRoman(document.getElementById('roman').value)">Convert to Decimal!</button>
+    </p>
+    <p> Decimal Number = </p>
+    <p id="userInputR"></p>
+  </body>
+</div>
+</html>
